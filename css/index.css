@@ -1,0 +1,12 @@
+* {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;    
+}
+
+header {
+    background-color: #0075ff;
+}
+
+.header-ul {
+    display: flex;
+    gap: 40px;
+}
