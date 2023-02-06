@@ -53,7 +53,6 @@ header {
     border-radius: 12px;
     padding: 8px;
     transition: all 0.6s;
-    transition-delay: 0.6s;
 }
 
 li {
@@ -66,7 +65,23 @@ a {
 }
 
 #pesquisa {
-    width: 700px;
-    flex-wrap: wrap;
-    background-image: url(C:\Users\961600\Documents\GitHub\Site-PI\img\icons8-pesquisar-50.png);
+    width: 500px;
+    border: none;
+    background-color: #c2bfbf;
+    height: 25px;
+}
+
+.img {
+    width: 30px;
+}
+
+.pesquisar {
+    background-color: #c2bfbf;
+    border-radius: 42px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
 }
