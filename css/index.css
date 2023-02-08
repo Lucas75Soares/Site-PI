@@ -143,7 +143,7 @@ span:hover {
 .gallery {
     display: flex;
     flex-flow: row nowrap;
-    transition: 0.3s ease;
+    transition: 0.6s ease;
     height: 300px;
 }
 
@@ -196,6 +196,26 @@ h1 {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+    gap: 35px;
+}
+
+.produtos-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border: 1px solid #000;
+    padding: 12px 16px;
+}
+
+.produtos-item:hover {
+    transform: scale(1.06);
+    transition: 0.6s ease;
+}
+
+.coca-cola {
+    width: 150px;
 }
 
 .produtos-item-imagem {
@@ -204,7 +224,16 @@ h1 {
     margin: 12px 16px;
     width: 298px;
     height: 395px;
-    border: 2px solid #000;
+}
+
+.botoes-produtos {
+    all: unset;
+    transform: scale(2);
+}
+
+.botoes-produtos:hover {
+    transform: scale(2.50);
+    transition: 0.6s ease;
 }
 
 /* Fim do Container Principal */
