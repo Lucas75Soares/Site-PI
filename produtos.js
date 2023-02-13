@@ -7,9 +7,6 @@ let produtos = {
     comprar: "Comprar"
 }
 
-
-
-
 let produtosLi = [produtos]
 
 produtosLi.forEach(item => {
