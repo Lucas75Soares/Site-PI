@@ -1,1 +1,0 @@
-let link = "https://api.whatsapp.com/send?phone=553497743681&text"
