@@ -5,8 +5,10 @@
     box-sizing: border-box;
 }
 
+/* Início Header */
+
 .container {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -25,8 +27,10 @@ form {
 
 form input {
     all: unset;
-    width: 500px;
+    width: 700px;
     border-right: 1px solid grey;
+    background-color: rgb( 227, 227, 227);
+    border-radius: 12px;
 }
 
 .header-baixo-bg {
@@ -36,6 +40,43 @@ form input {
 .header-baixo-conteudo {
     display: flex;
     align-items: center;
+    transition: 0.3s ease;
+}
+
+.header-baixo-conteudo:hover {
+    cursor: pointer;
+    transform: scale(1.20);
+}
+
+.header-baixo {
+    display: flex;
+}
+
+.header-baixo-botoes {
+    display: flex;
+}
+
+.header-botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    color: #fff;
+}
+
+.header-botoes-li {
+    padding: 0px 40px;
+    transition: 0.3s ease;
+}
+
+.header-botoes-li:hover {
+    cursor: pointer;
+    transform: scale(1.10);
+}
+
+.header-botoes hr {
+    height: 30px;
 }
 
 .text-categorias {
@@ -61,4 +102,99 @@ form input {
     padding: 4px;
     margin: 5px;
     background-color: #fff;
+}
+
+#lupa:hover {
+    cursor: pointer;
+}
+
+/* Fim Header */
+
+/* Início Carrousel */
+
+.carrousel-display {
+    margin-top: 20px;
+}
+
+.carrousel-botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.spans-carrousel {
+    background-color: rgb(104, 18, 18);
+    width: 27px;
+    height: 9px;
+    border-radius: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Fim Carrousel */
+
+/* Início das Ofertas */
+
+.nossas-ofertas {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.nossas-ofertas span {
+    background-color: rgb(176, 176, 176);
+    width: 450px;
+    height: 5px;
+}
+
+.container-ofertas ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.adicionar-carrinho {
+    background-color: rgb(104, 18, 18);
+    color: #fff;
+    padding: 2px 60px;
+    border-radius: 12px;
+}
+
+.container-ofertas-li {
+    text-align: center;
+    position: relative;
+    background-color: rgb( 242, 242, 242);
+    border-radius: 12px;
+    padding: 12px 16px;
+    overflow: hidden;
+}
+
+.container-ofertas img {
+    max-width: 210px;
+}
+
+.desconto {
+    position: absolute;
+    top: 15px;
+    right: -25px;
+    transform: rotate(40deg);
+    background-color: rgb(156, 50, 50);
+    padding: 0px 30px;
+    color: #fff;
+}
+
+.adicionar-carrinho {
+    transition: 0.3s ease;
+}
+
+.adicionar-carrinho:hover {
+    cursor: pointer;
+    color: grey;
 }
