@@ -41,6 +41,7 @@ form input {
     display: flex;
     align-items: center;
     transition: 0.3s ease;
+    background-color: #A7262F;
 }
 
 .header-baixo-conteudo:hover {
@@ -237,3 +238,86 @@ img {
 }
 
 /* Fim das Imagens de amostra */
+
+/* Início do Footer */
+
+.lista-contato {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.lista-contato li{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.lista-contato img{
+    width: 32px;
+}
+
+.lista-redes li {
+    width: 50px;
+}
+
+.lista-redes-sociais {
+    list-style: none;
+    float: right;
+    flex-direction: row;
+    display: flex;
+}
+
+.lista-redes-sociais img{
+    width: 32px;
+}
+
+.footer-baixo {
+    background-color: #7C0D12;
+    align-items: center;
+    margin-top: 15px;
+    padding: 5px;
+    opacity: 40%;    
+}
+
+footer {
+    background-color: #A7262F;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.footer-conteudo {    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lista-redes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Fim do Footer */
+
+@media screen and (max-width: 800px) {
+    .amostra {
+        grid-template-columns: 1fr;
+    }
+    form input {
+        width: 300px;
+    }
+    .amostra3 {
+        grid-column-start: 1;
+    }
+    .container-ofertas-li {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
