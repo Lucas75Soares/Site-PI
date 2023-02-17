@@ -153,6 +153,11 @@ img {
     height: 5px;
 }
 
+.container-ofertas {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
 .container-ofertas ul {
     display: flex;
     justify-content: center;
@@ -198,3 +203,37 @@ img {
     cursor: pointer;
     color: grey;
 }
+
+.setas {
+    transform: scale(3);
+    color: rgb(104, 18, 18);
+    transition: 0.6s ease;
+}
+
+.setas:hover {
+    cursor: pointer;
+    transform: scale(4);
+}
+
+/* Fim das Ofertas */
+
+/* Início das Imagens de amostra */
+
+.amostra {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.amostra1 img, .amostra2 img, .amostra3 img {
+    height: 100%;
+    border: 5px solid rgb(104, 18, 18);
+}
+
+.amostra3 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/* Fim das Imagens de amostra */
