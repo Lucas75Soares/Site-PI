@@ -320,4 +320,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
     }
+    .header-baixo-bg{
+        display: none;
+    }
 }
