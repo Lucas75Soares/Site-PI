@@ -61,9 +61,9 @@ form input {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
     list-style: none;
     color: #fff;
+    flex-wrap: wrap;
 }
 
 .header-botoes-li {
@@ -163,7 +163,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 32px;
+    flex-wrap: wrap;
 }
 
 .adicionar-carrinho {
@@ -180,6 +181,7 @@ img {
     border-radius: 12px;
     padding: 12px 16px;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .container-ofertas img {
@@ -205,6 +207,8 @@ img {
     color: grey;
 }
 
+/*
+
 .setas {
     transform: scale(3);
     color: rgb(104, 18, 18);
@@ -215,6 +219,8 @@ img {
     cursor: pointer;
     transform: scale(4);
 }
+
+*/
 
 /* Fim das Ofertas */
 
@@ -322,5 +328,11 @@ footer {
     }
     .header-baixo-bg{
         display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    form input {
+        width: 180px;
     }
 }
